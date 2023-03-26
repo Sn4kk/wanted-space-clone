@@ -11,15 +11,11 @@ struct WorkingTimeView: View {
     var body: some View {
         
         VStack{
-            HStack {
+            
                 Text("""
 한나님,
-오늘도 수고 많으셨습니다.
+오늘도 수고 많으셨습니다.✨
 """)
-                
-                Image(systemName: "wand.and.stars")
-                    .foregroundColor(.yellow)
-            }
             .font(.title)
             VStack {
                 VStack {

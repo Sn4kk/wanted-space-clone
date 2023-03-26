@@ -35,6 +35,7 @@ struct ApprovalsList: View {
                 HStack {
                     Text("오늘의 결제항목이 없습니다✨")
                         .foregroundColor(Color(UIColor.systemGray4))
+                        .padding(5)
                 }
             }
             .padding(55)

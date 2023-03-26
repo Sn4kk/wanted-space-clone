@@ -37,11 +37,12 @@ struct ApprovalsList: View {
                         .foregroundColor(Color(UIColor.systemGray4))
                 }
             }
-            .padding(30)
+            .padding(55)
+//            .padding(.horizontal, 50)
             .background(Color(UIColor.systemGray6).opacity(0.5))
         }
         .frame(maxWidth: .infinity)
-        .padding()
+        .padding(5)
         
     }
         

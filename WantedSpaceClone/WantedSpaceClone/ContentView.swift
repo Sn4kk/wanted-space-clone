@@ -22,6 +22,8 @@ struct ContentView: View {
                 TodaysNotifications()
                 Divider()
                 ApprovalsList()
+                Divider()
+                WorkStatus()
             }
         }
     }

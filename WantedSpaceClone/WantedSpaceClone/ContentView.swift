@@ -10,17 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack() {
-           MainMenu()
-            CurrentDate()
-           WorkingTimeView()
-            Text("*휴게시간: 1시간 (점심시간: 13:00 - 14:00)")
-                .font(.footnote)
-                .foregroundColor(.gray)
-            StartWorkButton()
-            Divider()
-            TodaysNotifications()
-            Divider()
-            PaymentsList()
+            MainMenu()
+            ScrollView {
+                CurrentDate()
+                WorkingTimeView()
+                Text("*휴게시간: 1시간 (점심시간: 13:00 - 14:00)")
+                    .font(.footnote)
+                    .foregroundColor(.gray)
+                StartWorkButton()
+                Divider()
+                TodaysNotifications()
+                Divider()
+                ApprovalsList()
+            }
         }
     }
 }

@@ -40,7 +40,8 @@ struct ApprovalsList: View {
             }
             .padding(55)
 //            .padding(.horizontal, 50)
-            .background(Color(UIColor.systemGray6).opacity(0.5))
+            .background(Color(UIColor.systemGray6).opacity(0.5)
+                .cornerRadius(5))
         }
         .frame(maxWidth: .infinity)
         .padding(5)

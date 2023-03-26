@@ -28,7 +28,7 @@ struct TodaysNotifications: View {
             }
         }
         .frame(maxWidth: .infinity)
-        .padding(.horizontal, 40)
+        .padding(.horizontal, 30)
     }
 }
 

@@ -12,7 +12,7 @@ struct StartWorkButton: View {
         RoundedRectangle(cornerRadius: 10)
             .fill(Color(UIColor.systemGray6))
             .frame(maxHeight: 50)
-            .padding()
+            .padding(30)
             .overlay(
             Text("출근하기"))
             

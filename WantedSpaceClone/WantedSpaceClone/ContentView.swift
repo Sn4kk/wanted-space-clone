@@ -17,7 +17,9 @@ struct ContentView: View {
                 .font(.footnote)
                 .foregroundColor(.gray)
             StartWorkButton()
-
+            Divider()
+            TodaysNotifications()
+            Divider()
         }
     }
 }

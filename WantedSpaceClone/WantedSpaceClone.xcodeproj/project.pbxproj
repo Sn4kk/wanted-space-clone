@@ -16,6 +16,7 @@
 		66DCE41C29CF70C400A4C2DF /* CurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE41B29CF70C400A4C2DF /* CurrentDate.swift */; };
 		66DCE41E29CF7C3F00A4C2DF /* StartWorkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE41D29CF7C3F00A4C2DF /* StartWorkButton.swift */; };
 		66DCE42329D00D9D00A4C2DF /* TodaysNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE42229D00D9D00A4C2DF /* TodaysNotifications.swift */; };
+		66DCE42529D0141600A4C2DF /* PaymentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE42429D0141600A4C2DF /* PaymentsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		66DCE41B29CF70C400A4C2DF /* CurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
 		66DCE41D29CF7C3F00A4C2DF /* StartWorkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkButton.swift; sourceTree = "<group>"; };
 		66DCE42229D00D9D00A4C2DF /* TodaysNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysNotifications.swift; sourceTree = "<group>"; };
+		66DCE42429D0141600A4C2DF /* PaymentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				66DCE41729CF6F9300A4C2DF /* WorkingTimeView.swift */,
 				66DCE41D29CF7C3F00A4C2DF /* StartWorkButton.swift */,
 				66DCE42229D00D9D00A4C2DF /* TodaysNotifications.swift */,
+				66DCE42429D0141600A4C2DF /* PaymentsList.swift */,
 				66DCE40D29CF6A9000A4C2DF /* Assets.xcassets */,
 				66DCE40F29CF6A9000A4C2DF /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				66DCE41829CF6F9400A4C2DF /* WorkingTimeView.swift in Sources */,
 				66DCE41E29CF7C3F00A4C2DF /* StartWorkButton.swift in Sources */,
+				66DCE42529D0141600A4C2DF /* PaymentsList.swift in Sources */,
 				66DCE42329D00D9D00A4C2DF /* TodaysNotifications.swift in Sources */,
 				66DCE40C29CF6A8E00A4C2DF /* ContentView.swift in Sources */,
 				66DCE40A29CF6A8E00A4C2DF /* WantedSpaceCloneApp.swift in Sources */,

@@ -10,9 +10,11 @@ import SwiftUI
 struct StartWorkButton: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 10)
-            .fill(Color.gray)
+            .fill(Color(UIColor.systemGray6))
             .frame(maxHeight: 50)
             .padding()
+            .overlay(
+            Text("출근하기"))
             
     }
 }

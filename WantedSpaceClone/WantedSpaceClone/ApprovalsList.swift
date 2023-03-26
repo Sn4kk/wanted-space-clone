@@ -33,11 +33,8 @@ struct ApprovalsList: View {
                 }
                 .foregroundColor(Color(UIColor.systemGray4))
                 HStack {
-                    Text("오늘의 결제항목이 없습니다")
+                    Text("오늘의 결제항목이 없습니다✨")
                         .foregroundColor(Color(UIColor.systemGray4))
-                    Image(systemName: "wand.and.stars")
-                        .foregroundColor(.yellow)
-                        .font(.caption)
                 }
             }
             .padding(30)
@@ -50,7 +47,7 @@ struct ApprovalsList: View {
         
 }
 
-struct PaymentsList_Previews: PreviewProvider {
+struct ApprovalsList_Previews: PreviewProvider {
     static var previews: some View {
         ApprovalsList()
     }

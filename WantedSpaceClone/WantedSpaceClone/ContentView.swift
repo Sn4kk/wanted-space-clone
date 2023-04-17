@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack() {
+        VStack {
             MainMenu()
             ScrollView {
                 CurrentDate()
@@ -26,6 +26,7 @@ struct ContentView: View {
                 WorkStatus()
             }
         }
+        .padding(.horizontal)
     }
 }
 

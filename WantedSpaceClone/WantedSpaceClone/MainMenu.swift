@@ -47,8 +47,8 @@ struct MainMenu: View {
                     
                         .frame(width: 45, height: 45)
                         .overlay(
-                            Circle()
-                                .stroke(Color(UIColor.systemGray5)))
+                                Circle()
+                                    .stroke(Color(UIColor.systemGray5)))
                     Text("나")
                         .bold()
                         .font(.title3)

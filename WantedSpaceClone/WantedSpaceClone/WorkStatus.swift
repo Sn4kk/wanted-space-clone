@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct WorkStatus: View {
+    var userIsOnline: Bool = true
+    
     var body: some View {
         VStack {
             
@@ -34,12 +36,12 @@ struct WorkStatus: View {
                     
                         .background(
                             Circle()
-                                .fill(Color(UIColor.systemGray4))
-                                .frame(height: 50)
+                                .fill(userIsOnline ? Color(UIColor.systemGray2) :  Color(UIColor.systemGray4))
+//                                .frame(height: 50)
                                 .overlay(alignment: .topTrailing) {
                                     Circle()
                                         .frame(height: 10)
-                                        .foregroundColor(Color(UIColor.systemGray5))
+                                        .foregroundColor(userIsOnline ? Color.green : Color(UIColor.systemGray5))
                                         .overlay(
                                             Circle()
                                                 .stroke(lineWidth: 3)
@@ -158,3 +160,15 @@ struct WorkStatus_Previews: PreviewProvider {
         WorkStatus()
     }
 }
+
+//struct user {
+//    var userIsOnline: Bool
+//    let name: String
+//}
+//
+//let userData : [user] = [
+//    user(userIsOnline: true, name: "나"),
+//    user(userIsOnline: false, name: "홍길동"),
+//    user(userIsOnline: false, name: "홍길동"),
+//    user(userIsOnline: false, name: "홍길동"),
+//]
